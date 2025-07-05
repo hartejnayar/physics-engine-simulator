@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Physics Engine Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.dom.min.js"></script>
+  <!-- Core Logic -->
+  <script src="engine.js"></script>
+  <script src="ui.js"></script>
+  <script src="sketch.js"></script>
+  <!-- Topic Simulations -->
+  <script src="topics/mechanics/projectile.js"></script>
+  <script src="topics/mechanics/rigidBody.js"></script>
+  <script src="topics/mechanics/friction.js"></script>
+  <script src="topics/mechanics/circularMotion.js"></script>
+  <script src="topics/mechanics/workEnergyPower.js"></script>
+  <script src="topics/mechanics/collision.js"></script>
+
+  <script src="topics/waves/shm.js"></script>
+  <script src="topics/waves/wavePulse.js"></script>
+  <script src="topics/waves/superposition.js"></script>
+  <script src="topics/waves/dopplerEffect.js"></script>
+
+  <script src="topics/optics/reflection.js"></script>
+  <script src="topics/optics/refraction.js"></script>
+  <script src="topics/optics/lenses.js"></script>
+  <script src="topics/optics/diffraction.js"></script>
+
+  <script src="topics/electricity/currentCircuits.js"></script>
+  <script src="topics/electricity/resistorsSeriesParallel.js"></script>
+  <script src="topics/electricity/kirchhoffLaws.js"></script>
+  <script src="topics/electricity/capacitorCharging.js"></script>
+
+  <script src="topics/electrostatics/electricField.js"></script>
+  <script src="topics/electrostatics/potential.js"></script>
+  <script src="topics/electrostatics/coulombsLaw.js"></script>
+
+  <script src="topics/modern phy/bohrModel.js"></script>
+  <script src="topics/modern phy/nuclearDecay.js"></script>
+  <script src="topics/modern phy/photoelectricEffect.js"></script>
+
+  <script src="topics/thermodynamics/calorimetry.js"></script>
+  <script src="topics/thermodynamics/carnotCycle.js"></script>
+  <script src="topics/thermodynamics/thermalExpansion.js"></script>
+
+</head>
+
+<body>
+  <div id="sidebar">
+    <h1>Physics Simulator</h1>
+    <select id="topicSelect">
+      <option disabled selected>Select Topic</option>
+      <optgroup label="Mechanics">
+        <option value="projectile">Projectile Motion</option>
+        <option value="rigidBody">Rigid Body</option>
+        <option value="friction">Friction</option>
+        <option value="circularMotion">Circular Motion</option>
+        <option value="workEnergyPower">Work, Energy & Power</option>
+        <option value="collision">Collision</option>
+      </optgroup>
+      <optgroup label="Waves">
+        <option value="shm">Simple Harmonic Motion</option>
+        <option value="wavePulse">Wave Pulse</option>
+        <option value="superposition">Superposition</option>
+        <option value="dopplerEffect">Doppler Effect</option>
+      </optgroup>
+      <optgroup label="Thermodynamics">
+        <option value="thermalExpansion">Thermal Expansion</option>
+        <option value="calorimetry">Calorimetry</option>
+        <option value="carnotCycle">Carnot Cycle</option>
+      </optgroup>
+      <optgroup label="Optics">
+        <option value="reflection">Reflection</option>
+        <option value="refraction">Refraction</option>
+        <option value="lenses">Lenses</option>
+        <option value="diffraction">Diffraction</option>
+      </optgroup>
+      <optgroup label="Electricity">
+        <option value="currentCircuits">Current Circuits</option>
+        <option value="resistorsSeriesParallel">Resistors</option>
+        <option value="kirchhoffLaws">Kirchhoff's Laws</option>
+        <option value="capacitorCharging">Capacitor Charging</option>
+      </optgroup>
+      <optgroup label="Electrostatics">
+        <option value="electricField">Electric Field</option>
+        <option value="potential">Electric Potential</option>
+        <option value="coulombsLaw">Coulomb's Law</option>
+      </optgroup>
+      <optgroup label="Modern Physics">
+        <option value="photoelectricEffect">Photoelectric Effect</option>
+        <option value="bohrModel">Bohr's Model</option>
+        <option value="nuclearDecay">Nuclear Decay</option>
+      </optgroup>
+    </select>
+  </div>
+  <main>
+    <!-- p5.js canvas will appear here -->
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+/* Global Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* Sidebar for controls */
+#sidebar {
+  width: 280px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+#sidebar h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Dropdown */
+#topicSelect {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #fdfdfd;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+optgroup {
+  font-weight: bold;
+  color: #555;
+}
+
+option {
+  font-weight: normal;
+}
+
+/* Main canvas container */
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fcfcfc;
+}
+
+/* Slider labels (from ui.js) */
+div {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+/* p5 canvas styling (optional) */
+canvas {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+}
