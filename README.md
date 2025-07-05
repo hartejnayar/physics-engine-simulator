@@ -53,7 +53,7 @@ This was a passion project for me — not just to visualize physics, but to *und
 - Carnot Cycle
 - Calorimetry
 - Thermal Expansion
-- 
+  
 ### Modern Physics
 - Photoelectric Effect
 - Bohr Model
