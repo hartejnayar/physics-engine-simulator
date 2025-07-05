@@ -60,8 +60,27 @@ This was a passion project for me — not just to visualize physics, but to *und
 - Nuclear Decay
 
 ---
+## Project Highlights
+---
 
-## 💡 Built With
+### Modular Physics Engine Architecture
+The simulator is built on a modular architecture, with each physics topic organized into its own script under a structured folder system. Core functionality is abstracted into shared logic files such as engine.js (for physics computations) and ui.js (for dynamic interface elements), ensuring clean separation of concerns and ease of scalability.
+
+### Comprehensive Physics Coverage
+The project includes over 30 simulations across key domains: Mechanics, Waves, Optics, Electricity, Electrostatics, Thermodynamics, and Modern Physics. Simulations such as projectile motion, SHM, diffraction, nuclear decay, and the Carnot cycle are all implemented with real-time interactivity and physical accuracy.
+
+### Dynamic and Educational User Interface
+The user interface features a responsive dropdown or sidebar menu and parameterized sliders for each simulation. Each module also includes learning objectives rendered directly onto the canvas to contextualize the concept being explored.
+
+### High-Quality Canvas Visualizations
+All simulations use p5.js to render animations on an HTML5 canvas. The visuals maintain conceptual clarity while remaining computationally lightweight, offering an engaging experience without visual clutter.
+
+### Fully Deployed Web App
+The simulator is deployed using GitHub Pages and can optionally be mapped to a custom domain. The project requires no external frameworks or libraries beyond p5.js, making it fast, portable, and open for further development.
+
+
+
+## Built With
 
 - [`p5.js`](https://p5js.org/)
 - Vanilla JavaScript
@@ -86,9 +105,6 @@ This was a passion project for me — not just to visualize physics, but to *und
 
 Make sure you open it on desktop for the best experience.
 
----
-
-##  How to Run Locally
 
 
 
