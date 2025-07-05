@@ -80,7 +80,8 @@ This was a passion project for me — not just to visualize physics, but to *und
 ---
 
 ##  Try It Out!
-
+ https://hartejnayar.github.io/physics-engine-simulator/
+ 
 
 
 Make sure you open it on desktop for the best experience.
