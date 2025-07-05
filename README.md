@@ -61,7 +61,7 @@ This was a passion project for me — not just to visualize physics, but to *und
 
 ---
 ## Project Highlights
----
+
 
 ### Modular Physics Engine Architecture
 The simulator is built on a modular architecture, with each physics topic organized into its own script under a structured folder system. Core functionality is abstracted into shared logic files such as engine.js (for physics computations) and ui.js (for dynamic interface elements), ensuring clean separation of concerns and ease of scalability.
