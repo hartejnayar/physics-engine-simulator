@@ -2,7 +2,7 @@
 ---
 Built from scratch with `p5.js`, this is a full-fledged, modular physics simulation platform that brings key concepts of high school and early university physics to life — interactively, visually, and intuitively. From projectile motion to the Carnot cycle, every simulation is designed to make physics feel tangible and hands-on.
 
-This was a passion project for me — not just to visualize physics, but to *understand it deeper*, debug how nature behaves, and design a tool that others could use to learn actively instead of just reading theory, The system is scalable, cleanly structured, and built with extensibility in mind.
+This was a passion project for me — not just to visualize physics, but to *understand it deeper*, debug how nature behaves, and design a tool that others could use to learn actively instead of just reading theory. The system is scalable, cleanly structured, and built with extensibility in mind.
 
 ---
 
